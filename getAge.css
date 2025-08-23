@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.background{
+    background-image: url("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=");
+     width: 100vw;
+     position: relative;
+     height: 100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+}
+.set{
+   
+    display: flex;
+    gap: 50px;
+}
+.YourDate{
+    display: flex;
+    justify-content: center;
+}
+.setting{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.none{
+    display: none;
+}
+.sbg{
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    left: 25%;
+    top: 50%;
+  
+}
