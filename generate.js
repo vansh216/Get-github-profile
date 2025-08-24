@@ -36,6 +36,7 @@ const getsprofile= async()=>{
         const a= await res.json();
         console.log(a)
             div.innerHTML=generateprofile(a);
+        div.classList.remove("none")
       
         
     }catch(error){
@@ -45,9 +46,10 @@ const getsprofile= async()=>{
 }
 searchBtn.addEventListener("click",()=>{
     getsprofile()
-    div.classList.remove("none")
+    
     
 })
 
 
 // https://api.github.com/users/defunkt
+
